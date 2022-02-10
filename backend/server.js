@@ -4,6 +4,7 @@ const dotenv = require('dotenv').config()
 const connectDB = require('./config/db')
 const colors = require('colors')
 const cors = require('cors')
+const path = require('path')
 
 connectDB()
 
